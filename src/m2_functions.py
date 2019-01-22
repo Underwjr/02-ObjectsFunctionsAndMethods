@@ -25,6 +25,7 @@ import math
 def main():
     print(z(3, 4))
     jack('blue', 3)
+    jack('indigo', 5)
 
 ###############################################################################
 # Done 3a.  Define a function immediately below this _TODO_.
@@ -47,7 +48,7 @@ def z(x, y):
     return w
 
 ###############################################################################
-# TODO: 4a.  Define a function immediately below this _TODO_.
+# Done.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
 #     -- a positive integer that represents the thickness of a Pen.
@@ -69,7 +70,7 @@ def z(x, y):
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 4b.  In main, CALL your function at least TWICE (with different values
+# Done.  In main, CALL your function at least TWICE (with different values
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
@@ -92,7 +93,7 @@ def jack(c, t):
 
 
 ###############################################################################
-# TODO: 5.
+# Done
 #   COMMIT-and-PUSH your work (after changing this TO-DO to DONE).
 #
 #   As a reminder, here is how you should do so:
