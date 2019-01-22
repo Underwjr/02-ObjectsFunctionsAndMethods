@@ -24,6 +24,7 @@ import math
 
 def main():
     print(z(3, 4))
+    jack('blue', 3)
 
 ###############################################################################
 # Done 3a.  Define a function immediately below this _TODO_.
@@ -72,6 +73,22 @@ def z(x, y):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+
+
+def jack(c, t):
+    window = rg.TurtleWindow()
+    window.delay(10)
+
+    zach = rg.SimpleTurtle()
+    zach.pen = rg.Pen('green', t)
+
+    sydney = rg.SimpleTurtle()
+    sydney.pen = rg.Pen(c, 5)
+
+    zach.forward(100)
+    sydney.backward(100)
+
+    window.close_on_mouse_click()
 
 
 ###############################################################################
